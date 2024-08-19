@@ -1,5 +1,5 @@
 <?php
-$currentPage = basename($_SERVER['REQUEST_URI'], ".php");
+$currentPage = basename($_SERVER['REQUEST_URI'], "");
 ?>
 
 <!DOCTYPE html>
@@ -34,9 +34,9 @@ $currentPage = basename($_SERVER['REQUEST_URI'], ".php");
             <!-- Navigation Links (Right Side) -->
             <div class="hidden space-x-6 md:flex">
                 <a href="/" class="navbar-link <?= $currentPage == '' ? 'navbar-link-current' : 'navbar-link-default' ?>">Home</a>
-                <a href="/services.php" class="navbar-link <?= $currentPage == 'services' ? 'navbar-link-current' : 'navbar-link-default' ?>">Services</a>
-                <a href="/activities.php" class="navbar-link <?= $currentPage == 'activities' ? 'navbar-link-current' : 'navbar-link-default' ?>">Activities</a>
-                <a href="/contact-us.php" class="navbar-link <?= $currentPage == 'contact-us' ? 'navbar-link-current' : 'navbar-link-default' ?>">Contact Us</a>
+                <a href="/services" class="navbar-link <?= $currentPage == 'services' ? 'navbar-link-current' : 'navbar-link-default' ?>">Services</a>
+                <a href="/activities" class="navbar-link <?= $currentPage == 'activities' ? 'navbar-link-current' : 'navbar-link-default' ?>">Activities</a>
+                <a href="/contact-us" class="navbar-link <?= $currentPage == 'contact-us' ? 'navbar-link-current' : 'navbar-link-default' ?>">Contact Us</a>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -50,8 +50,8 @@ $currentPage = basename($_SERVER['REQUEST_URI'], ".php");
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden bg-white shadow-md md:hidden">
             <a href="/" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == '' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Home</a>
-            <a href="/services.php" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == 'services' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Services</a>
-            <a href="/activities.php" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == 'activities' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Activities</a>
-            <a href="/contact-us.php" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == 'contact-us' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Contact Us</a>
+            <a href="/services" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == 'services' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Services</a>
+            <a href="/activities" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == 'activities' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Activities</a>
+            <a href="/contact-us" class="block px-4 py-2 text-lg transition-all duration-150 ease-linear <?= $currentPage == 'contact-us' ? 'navbar-link-current' : 'navbar-link-default' ?> hover:bg-gray-300">Contact Us</a>
         </div>
     </header>
