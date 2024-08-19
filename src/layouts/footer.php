@@ -17,19 +17,19 @@
             <div class="w-auto mx-auto xl:w-full xl:mx-0">
                 <div class="flex items-center mb-2">
                     <img src="/dist/images/svg/phone.svg" alt="PHONE SVG" class="me-2">
-                    <a href="tel:+95-95199716" class="text-sm md:text-lg">+95-95199716</a>
+                    <a href="tel:+95-95199716" class="text-sm md:text-base">+95-95199716</a>
                 </div>
                 <div class="flex items-center mb-2">
                     <img src="/dist/images/svg/phone.svg" alt="PHONE SVG" class="me-2">
-                    <a href="tel:+95-785199716" class="text-sm md:text-lg">+95-785199716</a>
+                    <a href="tel:+95-785199716" class="text-sm md:text-base">+95-785199716</a>
                 </div>
                 <div class="flex items-center mb-2">
                     <img src="/dist/images/svg/mail.svg" alt="MAIL SVG" class="me-2">
-                    <a href="mailto:hr.mshipnamagement@gmail.com" class="text-sm md:text-lg">hr.mshipnamagement@gmail.com</a>
+                    <a href="mailto:hr.mshipnamagement@gmail.com" class="text-sm md:text-base">hr.mshipnamagement@gmail.com</a>
                 </div>
                 <div class="flex items-center mb-2">
                     <img src="/dist/images/svg/mail.svg" alt="MAIL SVG" class="me-2">
-                    <a href="mailto:crew@mshipmanagement.com" class="text-sm md:text-lg">crew@mshipmanagement.com</a>
+                    <a href="mailto:crew@mshipmanagement.com" class="text-sm md:text-base">crew@mshipmanagement.com</a>
                 </div>
             </div>
         </div>

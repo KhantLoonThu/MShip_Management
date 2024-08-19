@@ -24,9 +24,9 @@ $currentPage = basename($_SERVER['REQUEST_URI'], "");
             <div class="flex items-center space-x-4">
                 <a href="/" class="flex items-center space-x-3">
                     <img src="/dist/images/logo.png" alt="Logo" class="navbar-logo">
-                    <div class="hidden md:block space-y-0.5">
-                        <p class="uppercase navbar-logo-text text-[20px] lg:text-[24px] leading-tight">M Ship Management</p>
-                        <p class="navbar-logo-text text-[12px] lg:text-[14px] leading-tight">Seafarers Recruitment and Placement Services</p>
+                    <div class="space-y-0.5">
+                        <p class="uppercase navbar-logo-text text-[20px] lg:text-[24px] leading-tight hidden md:block">M Ship Management</p>
+                        <p class="navbar-logo-text text-[12px] lg:text-[14px] leading-tight hidden md-2:block">Seafarers Recruitment and Placement Services</p>
                     </div>
                 </a>
             </div>

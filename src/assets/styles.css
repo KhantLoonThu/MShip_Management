@@ -56,7 +56,7 @@
 }
 
 .navbar-logo-text {
-  @apply self-center xl:text-center block font-[600] whitespace-nowrap dark:text-white;
+  @apply self-center xl:text-center font-[600] whitespace-nowrap dark:text-white;
 }
 
 /* Navbar responsive adjustments */
@@ -66,4 +66,22 @@
 
 .navbar-toggle {
   @apply block p-2 text-gray-500 lg-2:hidden; /* Show toggle button below lg-2 */
+}
+
+/* Buttons */
+.btn {
+  @apply text-xl font-semibold capitalize text-secondary;
+}
+
+.btn::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  @apply block transition-all duration-300 ease-linear bg-secondary;
+  margin: auto;
+}
+
+/* Banner */
+.banner-text {
+  @apply text-xl font-semibold text-white capitalize sm:text-3xl md:text-4xl animate-fadeIn;
 }
