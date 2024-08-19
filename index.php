@@ -3,7 +3,7 @@ include_once __DIR__ . '/src/layouts/header.php';
 ?>
 
 <!-- About Us Content -->
-<section class="h-auto max-w-screen-xl px-6 mx-auto my-24 xl:px-0">
+<section class="h-auto max-w-screen-xl px-6 mx-auto my-24 xl:px-0 animate-fadeIn">
     <h2 class="text-center heading-h2 text-primary">About</h2>
     <h2 class="mb-4 text-center uppercase heading-h2">
         WELCOME TO M SHIP MANAGEMENT
@@ -83,7 +83,7 @@ include_once __DIR__ . '/src/layouts/header.php';
 
 <!-- Services Content -->
 <section class="mt-16 bg-[#F4F4F4] py-[60px]">
-    <div class="h-auto max-w-screen-xl px-6 mx-auto xl:px-0">
+    <div class="h-auto max-w-screen-xl px-6 mx-auto xl:px-0 animate-fadeIn">
         <h2 class="text-center heading-h2">Our Services</h2>
         <div class="grid gap-8 mt-12 md:grid-cols-2 lg:grid-cols-3">
             <?php
@@ -126,9 +126,9 @@ include_once __DIR__ . '/src/layouts/header.php';
             </div>
         </div>
         <div class="flex justify-center mt-12 mb-5">
-            <a href="/services" class="font-semibold capitalize text-secondary text-extra-xl">learn more <img
+            <a href="/services" class="btn hover:after:w-full">learn more <img
                     src="/dist/images/svg/arrow_left.svg" alt="ARROW LEFT SVG"
-                    class="inline-block ms-4 w-[30px] h-[30px]"></a>
+                    class="inline-block ms-4 w-[28px] h-[28px]"></a>
         </div>
     </div>
 </section>
