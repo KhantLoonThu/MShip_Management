@@ -556,6 +556,22 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.left-\[50\%\]{
+  left: 50%;
+}
+
+.top-\[50\%\]{
+  top: 50%;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -646,6 +662,10 @@ video {
   height: 30px;
 }
 
+.h-\[350px\]{
+  height: 350px;
+}
+
 .h-\[63px\]{
   height: 63px;
 }
@@ -688,6 +708,11 @@ video {
 
 .max-w-screen-xl{
   max-width: 1280px;
+}
+
+.-translate-x-\[50\%\]{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .list-inside{
@@ -765,6 +790,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-banner{
+  background-image: url(/dist/images/banner-bg.png);
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
 .p-6{
   padding: 1.5rem;
 }
@@ -799,8 +836,33 @@ video {
   padding-bottom: 60px;
 }
 
+.px-\[60px\]{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .pt-\[50px\]{
   padding-top: 50px;
+}
+
+.pb-\[60px\]{
+  padding-bottom: 60px;
+}
+
+.pt-\[40px\]{
+  padding-top: 40px;
+}
+
+.pt-\[30px\]{
+  padding-top: 30px;
+}
+
+.pt-\[20px\]{
+  padding-top: 20px;
+}
+
+.pb-\[20px\]{
+  padding-bottom: 20px;
 }
 
 .text-center{
@@ -888,6 +950,11 @@ video {
   color: rgb(0 122 255 / var(--tw-text-opacity));
 }
 
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .shadow-blur{
   --tw-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
   --tw-shadow-colored: 0 0 30px 0 var(--tw-shadow-color);
@@ -924,7 +991,7 @@ video {
 
 .heading-h1{
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25;
 }
 
@@ -1141,6 +1208,10 @@ video {
     padding: 2rem;
   }
 
+  .md\:text-2xl{
+    font-size: 24px;
+  }
+
   .md\:text-base{
     font-size: 16px;
   }
@@ -1153,6 +1224,10 @@ video {
 @media (min-width: 1024px){
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:text-3xl{
+    font-size: 30px;
   }
 
   .lg\:text-\[14px\]{
@@ -1177,5 +1252,9 @@ video {
   .xl\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:text-4xl{
+    font-size: 36px;
   }
 }
