@@ -126,7 +126,7 @@ include_once __DIR__ . '/src/layouts/header.php';
             </div>
         </div>
         <div class="flex justify-center mt-12 mb-5">
-            <a href="/services.php" class="font-semibold capitalize text-secondary text-extra-xl">learn more <img
+            <a href="/services" class="font-semibold capitalize text-secondary text-extra-xl">learn more <img
                     src="/dist/images/svg/arrow_left.svg" alt="ARROW LEFT SVG"
                     class="inline-block ms-4 w-[30px] h-[30px]"></a>
         </div>
