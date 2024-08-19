@@ -11,23 +11,23 @@
 
 /* Utility classes for headings with responsive font sizes */
 .heading-h1 {
-  @apply text-4xl font-bold leading-tight;
+  @apply text-3xl font-bold leading-tight md:text-4xl;
 }
 
 .heading-h2 {
-  @apply text-3xl font-semibold;
+  @apply text-2xl font-semibold md:text-3xl;
 }
 
 .heading-h3 {
-  @apply text-2xl font-semibold;
+  @apply text-xl font-semibold md:text-2xl;
 }
 
 .heading-h4 {
-  @apply text-xl font-medium leading-snug;
+  @apply text-lg font-medium leading-snug md:text-xl;
 }
 
 .heading-h5 {
-  @apply text-lg font-medium leading-snug;
+  @apply text-base font-medium leading-snug md:text-lg;
 }
 
 .heading-h6 {
@@ -67,5 +67,3 @@
 .navbar-toggle {
   @apply block p-2 text-gray-500 lg-2:hidden; /* Show toggle button below lg-2 */
 }
-
-/* About Us */

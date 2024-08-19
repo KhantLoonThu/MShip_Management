@@ -8,6 +8,9 @@ module.exports = {
     './*.php',
   ],
   theme: {
+    backgroundImage: {
+      banner: 'url(/dist/images/banner-bg.png)',
+    },
     extend: {
       fontSize: {
         '4xl': '36px',
