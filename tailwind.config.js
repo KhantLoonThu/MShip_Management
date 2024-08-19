@@ -37,6 +37,7 @@ module.exports = {
         secondary: '#007AFF',
         white: '#fff',
         black: '#000',
+        lightGray: '#8E8E93',
       },
       fontFamily: {
         'poppins': ['Poppins', ...defaultTheme.fontFamily.sans],
